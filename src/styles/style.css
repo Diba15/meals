@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: 32px auto;
+    display: grid;
+    grid-template-columns: 30% 100%;
+}
+
+meal-list {
+    display: block;
+    margin-top: -12px;
+    width: 100%;
+    padding: 16px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, rosybrown);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, #00c6ff);
+}
+
+@media screen and (max-width: 720px) {
+    main {
+        display: block;
+    }
+}
