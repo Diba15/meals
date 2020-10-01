@@ -50,7 +50,7 @@ class AppBar extends HTMLElement {
        </style>
        <div class="gridme">
             <img src="../../../dist/52857137a58156c7739c0fac0e99953a.png" alt="icon">
-            <h2>Meals</h2>
+            <h2>Meals2</h2>
         </div>
        `;
     }
